@@ -21,7 +21,7 @@ Over the past 5 years - that's when I created Slim & Strong - I've met thousands
 I interviewed Kamen about his crazy journey into fitness after he dropped me back down: 
 
 <figure>
-  <a href="/images/slim_and_strong/kamen.jpg"><img src="/images/slim_and_strong/kamen.jpg"/></a>
+  <a href="{{ site.url }}/images/slim_and_strong/kamen.jpg"><img src="{{ site.url }}/images/slim_and_strong/kamen.jpg"/></a>
 </figure>
 
 _**Ariane:** I remember the first day you walked into Slim & Strong in 2009, telling me that the night before the weigh-in you had steak, a whole watermelon and a few other things to make for a heavy weigh-in. You played your strategy well from the get-go and you promptly lost 20 pounds in less than 2 weeks (check out Kamen's stats here). Tell us what motivated you to sign up for the program?_
@@ -37,7 +37,7 @@ _**Ariane:** About 3 years ago you and I and a few other boot campers signed up 
 **Kamen:** I started racing in 2009 indeed. In the beginning it was mostly running, but then I started doing stair climbing races, swimming races, and triathlons. To date I have done 5 Full IronMan races, 10 Half IronMan races, about 15 other triathlons, duathlons and aquathlons, a 50 mile trail run, 3 60K runs, 4 marathons, 15+ half marathons, and many others... I tend to place highest in stair climbing races, which remains a mystery to me, because I am still heavy for that at 190 lbs.
 
 <figure>
-  <a href="/images/slim_and_strong/stairs.jpg"><img src="/images/slim_and_strong/stairs.jpg"/></a>
+  <a href="{{ site.url }}/images/slim_and_strong/stairs.jpg"><img src="{{ site.url }}/images/slim_and_strong/stairs.jpg"/></a>
   <figcaption>This is the first stair climb we did for the American Lung Association. We won 1st place for fastest team and 1st place for best fundraisers. Whohooo!</figcaption>
 </figure>
 
@@ -48,7 +48,7 @@ _**Ariane:** What motivates you to work out like you do and compete "the Kamen w
 Another big reason is the inspiration you give others. A lot of friends have completed races because one way or another I have pushed them through it. It is great to see how you can make a difference is other people's lives and make them better. And a very special one of these people is my 10 year old daughter Julianne. We have done several races and triathlons together and she is now competing as part of the Prospect Park Youth Running Club. I can't afford not to try to be the best I could be, even if it was just for her.
 
 <figure>
-  <a href="/images/slim_and_strong/kamen_julie.jpg"><img src="/images/slim_and_strong/kamen_julie.jpg"/>
+  <a href="{{ site.url }}/images/slim_and_strong/kamen_julie.jpg"><img src="{{ site.url }}/images/slim_and_strong/kamen_julie.jpg"/>
 </a>
 </figure>
 
