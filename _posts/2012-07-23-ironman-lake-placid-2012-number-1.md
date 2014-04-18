@@ -17,8 +17,8 @@ share:
 _How to burn 16000 calories in comfort and style and not go by the book_
 
 <figure>
-  <a href="{{ site.url }}/images/imlp2012/finish.jpg">
-  	<img src="{{ site.url }}/images/imlp2012/finish.jpg"/>
+  <a href="{{ site.url }}{{ site.url }}/images/imlp2012/finish.jpg">
+  	<img src="{{ site.url }}{{ site.url }}/images/imlp2012/finish.jpg"/>
   </a>
   <figcaption>Just did it!</figcaption>
 </figure>
@@ -61,8 +61,8 @@ Since I committed to doing the race one week before the actual event, a few clos
 Bright and early on Friday morning I started my 6 hour drive to Lake Placid. I got there early afternoon, way ahead of the 5pm deadline, so decided to get myself properly fed first. A stake, a lobster, and a huge loaf of bread in the local grill solved that problem (there might have been some veggies there but I really don’t remember).
 
 <figure class="half">
-	<a href="/images/imlp2012/food-1.jpg"><img src="/images/imlp2012/food-1.jpg" /></a>
-	<a href="/images/imlp2012/food-2.jpg"><img src="/images/imlp2012/food-2.jpg" /></a>
+	<a href="{{ site.url }}/images/imlp2012/food-1.jpg"><img src="{{ site.url }}/images/imlp2012/food-1.jpg" /></a>
+	<a href="{{ site.url }}/images/imlp2012/food-2.jpg"><img src="{{ site.url }}/images/imlp2012/food-2.jpg" /></a>
 	<figcaption>I only exercise so I can eat more!</figcaption>
 </figure>
 <br />
@@ -72,9 +72,9 @@ I proceeded with check-in, which went smoothly apart from one small hiccup. I fi
 After visiting the local grocery store and getting some bare necessities, I was off to the camp site for my first ever experience of that kind. Amazingly it had hot water, clean toilets, a lake and a beach... Who knew?
 
 <figure class="third">
-	<a href="/images/imlp2012/camp-1.jpg"><img src="/images/imlp2012/camp-1.jpg" /></a>
-	<a href="/images/imlp2012/camp-2.jpg"><img src="/images/imlp2012/camp-2.jpg" /></a>
-	<a href="/images/imlp2012/camp-3.jpg"><img src="/images/imlp2012/camp-3.jpg" /></a>
+	<a href="{{ site.url }}/images/imlp2012/camp-1.jpg"><img src="{{ site.url }}/images/imlp2012/camp-1.jpg" /></a>
+	<a href="{{ site.url }}/images/imlp2012/camp-2.jpg"><img src="{{ site.url }}/images/imlp2012/camp-2.jpg" /></a>
+	<a href="{{ site.url }}/images/imlp2012/camp-3.jpg"><img src="{{ site.url }}/images/imlp2012/camp-3.jpg" /></a>
 	<figcaption>A view without a room!</figcaption>
 </figure>
 <br />
@@ -88,17 +88,17 @@ The most interesting part of my preparation is the nutrition. I was set to try a
 They say you should not experiment with new fuel on race day and should use what you use in training. I have been training to eat certain things for 30 years now and Nutella and bacon are on the top of the list. So the decision was clear cut – I would order original 200g Italian Nutella jars and prepare turkey-bacon-avocado-provolone sandwiches and put them in my gear bags!
 
 <figure class="third">
-	<a href="/images/imlp2012/bacon-1.jpg"><img src="/images/imlp2012/bacon-1.jpg" /></a>
-	<a href="/images/imlp2012/bacon-2.jpg"><img src="/images/imlp2012/bacon-2.jpg" /></a>
-	<a href="/images/imlp2012/bacon-3.jpg"><img src="/images/imlp2012/bacon-3.jpg" /></a>
+	<a href="{{ site.url }}/images/imlp2012/bacon-1.jpg"><img src="{{ site.url }}/images/imlp2012/bacon-1.jpg" /></a>
+	<a href="{{ site.url }}/images/imlp2012/bacon-2.jpg"><img src="{{ site.url }}/images/imlp2012/bacon-2.jpg" /></a>
+	<a href="{{ site.url }}/images/imlp2012/bacon-3.jpg"><img src="{{ site.url }}/images/imlp2012/bacon-3.jpg" /></a>
 	<figcaption>Everything is better with bacon!</figcaption>
 </figure>
 <br />
 
 <figure class="third">
-	<a href="/images/imlp2012/bacon-4.jpg"><img src="/images/imlp2012/bacon-4.jpg" /></a>
-	<a href="/images/imlp2012/nutella-1.jpg"><img src="/images/imlp2012/nutella-1.jpg" /></a>
-	<a href="/images/imlp2012/nutella-2.jpg"><img src="/images/imlp2012/nutella-2.jpg" /></a>
+	<a href="{{ site.url }}/images/imlp2012/bacon-4.jpg"><img src="{{ site.url }}/images/imlp2012/bacon-4.jpg" /></a>
+	<a href="{{ site.url }}/images/imlp2012/nutella-1.jpg"><img src="{{ site.url }}/images/imlp2012/nutella-1.jpg" /></a>
+	<a href="{{ site.url }}/images/imlp2012/nutella-2.jpg"><img src="{{ site.url }}/images/imlp2012/nutella-2.jpg" /></a>
 	<figcaption>Nutella... it is best to eat it with a spoon, worst to eat it with friends!</figcaption>
 </figure>
 <br />
@@ -106,7 +106,7 @@ They say you should not experiment with new fuel on race day and should use what
 On an IronMan they give you five gear bags – one “morning clothes” bag, two “transition” bags (from swim to bike and from bike to run respectively) and two “special needs” bags (provided in the midpoint of the bike and the midpoint of the run respectively). I had a 200g jar of Nutella and a sandwich in each.
 
 <figure class="third">
-	<a href="/images/imlp2012/bags.jpg"><img src="/images/imlp2012/bags.jpg" /></a>
+	<a href="{{ site.url }}/images/imlp2012/bags.jpg"><img src="{{ site.url }}/images/imlp2012/bags.jpg" /></a>
 	<figcaption>5 bags!</figcaption>
 </figure>
 <br />
@@ -120,7 +120,7 @@ I prepped and packed my gear, loaded the car, and went straight to bed… sorry 
 The first part is a two 1.2 mile loops of Mirror Lake. Professional racer start at 6:50am, 10 minutes before everybody else. The remaning 3000 people start *together* at 7am. It looks something like this:
 
 <figure>
-	<a href="/images/imlp2012/swim.jpg"><img src="/images/imlp2012/swim.jpg" /></a>
+	<a href="{{ site.url }}/images/imlp2012/swim.jpg"><img src="{{ site.url }}/images/imlp2012/swim.jpg" /></a>
 	<figcaption>Ready, on your mark, go!</figcaption>
 </figure>
 
@@ -137,15 +137,15 @@ The bike is “hilly”. As in 8000ft of climb hilly. To make things more intere
 The worst part is that the hill is at then end… so the Nutella is already burned. The best part is the scenery… this is 56 miles of closed course to enjoy the magnificence of the Adirondaks. I had water and bananas at the aid stations. No GU, no sugary drinks. A salt stick tablet every hour to keep the minerals in check and avoid the Rhode Island cramps. I learned that lesson.
 
 <figure class="third">
-	<a href="/images/imlp2012/bike-1.jpg"><img src="/images/imlp2012/bike-1.jpg" /></a>
-	<a href="/images/imlp2012/bike-2.jpg"><img src="/images/imlp2012/bike-2.jpg" /></a>
-	<a href="/images/imlp2012/bike-3.jpg"><img src="/images/imlp2012/bike-3.jpg" /></a>
+	<a href="{{ site.url }}/images/imlp2012/bike-1.jpg"><img src="{{ site.url }}/images/imlp2012/bike-1.jpg" /></a>
+	<a href="{{ site.url }}/images/imlp2012/bike-2.jpg"><img src="{{ site.url }}/images/imlp2012/bike-2.jpg" /></a>
+	<a href="{{ site.url }}/images/imlp2012/bike-3.jpg"><img src="{{ site.url }}/images/imlp2012/bike-3.jpg" /></a>
 	<figcaption>To aero...</figcaption>
 </figure>
 <br />
 
 <figure class="half">
-	<a href="/images/imlp2012/bike-0.jpg"><img src="/images/imlp2012/bike-0.jpg" /></a>
+	<a href="{{ site.url }}/images/imlp2012/bike-0.jpg"><img src="{{ site.url }}/images/imlp2012/bike-0.jpg" /></a>
 	<figcaption>...or not to aero?</figcaption>
 </figure>
 <br />
@@ -171,8 +171,8 @@ Because of the slow swim and bike, I was now moving together with the slowest pe
 My last mile was (under the circumstances) a blistering 10min/mile pace with a sprint around the olympic oval skating ring to the finish line. It was an emotional experience and I was overwhelmed with joy. I was an IronMan… against the odds, the books, and the wise people who told me that it can’t be done this way.
 
 <figure class="half">
-	<a href="/images/imlp2012/run-1.jpg"><img src="/images/imlp2012/run-1.jpg" /></a>
-	<a href="/images/imlp2012/run-2.jpg"><img src="/images/imlp2012/run-2.jpg" /></a>
+	<a href="{{ site.url }}/images/imlp2012/run-1.jpg"><img src="{{ site.url }}/images/imlp2012/run-1.jpg" /></a>
+	<a href="{{ site.url }}/images/imlp2012/run-2.jpg"><img src="{{ site.url }}/images/imlp2012/run-2.jpg" /></a>
 	<figcaption>Run, Forest, run!</figcaption>
 </figure>
 
@@ -183,8 +183,8 @@ It has been more than two weeks and I still can’t believe I did this. Such is 
 It is not uncommon for people to have downturns after reaching a goal that big, which they have been chasing for a while… fortunately for me this was not the top of the hill. It was a life goal and a big one at that, but somehow it came a bit too unexpected and fear I say a bit too easy. Never the less, it is an achievement I am second most proud of to this date… try to guess the top of the list.
 
 <figure class="half">
-	<a href="/images/imlp2012/after-1.jpg"><img src="/images/imlp2012/after-1.jpg" /></a>
-	<a href="/images/imlp2012/after-2.jpg"><img src="/images/imlp2012/after-2.jpg" /></a>
+	<a href="{{ site.url }}/images/imlp2012/after-1.jpg"><img src="{{ site.url }}/images/imlp2012/after-1.jpg" /></a>
+	<a href="{{ site.url }}/images/imlp2012/after-2.jpg"><img src="{{ site.url }}/images/imlp2012/after-2.jpg" /></a>
 	<figcaption>Which of the two is the lesser achievement?</figcaption>
 </figure>
 <br />
@@ -198,6 +198,6 @@ This time I have trained more — I have done IronMan Lake Placid :), I have cir
 So I am a little more confident and less embarrased, thus I am letting you know. If you are in NYC, come on over and cheer a bit. If not, you can track me on ironman.com. My BIB number is 1309. The fun starts Saturday, 8/11/2012 @ 7am!
 
 <figure>
-	<a href="/images/imlp2012/imnyc.jpg"><img src="/images/imlp2012/imnyc.jpg" /></a>
+	<a href="{{ site.url }}/images/imlp2012/imnyc.jpg"><img src="{{ site.url }}/images/imlp2012/imnyc.jpg" /></a>
 	<figcaption>It's not over!</figcaption>
 </figure>
