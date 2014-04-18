@@ -1,14 +1,14 @@
 title:            IronKman
 description:      "... in search of answers about health and performance."
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://kyotov.github.io/ironkman
+#url:              http://kyotov.github.io/ironkman
 disqus_shortname: ironkman
 
 # Owner/author information
 owner:
   name:           Kamen Yotov
   avatar:         bio-photo.jpg
-  bio:            "I've make some of the best mistakes. And I always live to tell about them (so far)."
+  bio:            "I make some of the best mistakes. And so far I have lived to tell about them!"
   email:          kamen@yotov.org
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   twitter:        
