@@ -17,8 +17,8 @@ share:
 _How to burn 16000 calories in comfort and style and not go by the book_
 
 <figure>
-  <a href="{{ site.url }}{{ site.url }}/images/imlp2012/finish.jpg">
-  	<img src="{{ site.url }}{{ site.url }}/images/imlp2012/finish.jpg"/>
+  <a href="{{ site.url }}/images/imlp2012/finish.jpg">
+  	<img src="{{ site.url }}/images/imlp2012/finish.jpg"/>
   </a>
   <figcaption>Just did it!</figcaption>
 </figure>
