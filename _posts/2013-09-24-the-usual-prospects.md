@@ -8,14 +8,14 @@ image:
   feature: 
   credit: 
   creditlink: 
-comments: 
+comments: true
 share: 
 ---
 
 Originally posted on September 24th, 2013 by Michael Rieman at [the PPTC blog](http://pptc.org/the-usual-prospects-kamen-yotov/)
 
 <figure>
-  <a href="{{ site.url }}/images/kamen.jpg"><img src="{{ site.url }}/images/kamen.jpg"/></a>
+  {% picture kamen %}
 </figure>
 
 Participating in a “biggest loser” contest may not be the way most PPTC members came to running, but it worked for Kamen Yotov, who won that contest while working in computer technology at Goldman, Sachs in 2008. Kamen, then weighing in at 225 pounds, worked at first with a trainer, then got caught up in the pleasures of exercise and competition. By 2009, a lighter and fitter Kamen ran his first race, the Fifth Avenue Mile in 5:43.

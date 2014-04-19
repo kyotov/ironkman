@@ -8,8 +8,9 @@ image:
   feature: 
   credit: 
   creditlink: 
-comments: 
+comments: true
 share: 
+images-tag: imlp2013
 ---
 
 ## Pre
@@ -19,10 +20,9 @@ I signed up for IMLP’13 at IMLP’12… just before the race last year. At tha
 We (Ray, Darbi, Anna, and I) drove up to Lake Placid on Friday… Car handled us beautifully, despite the 3 bikes, 3 full sets of camping gear and 4 people.
 
 <figure class="half">
-  <a href="{{ site.url }}/images/imlp2013/pre-1.jpg"><img src="{{ site.url }}/images/imlp2013/pre-1.jpg"/></a>
-  <a href="{{ site.url }}/images/imlp2013/pre-2.jpg"><img src="{{ site.url }}/images/imlp2013/pre-2.jpg"/></a>
+  {% picture pre-1 %}
+  {% picture pre-2 %}
 </figure>
-<br />
 
 Ray had signed up just recently for both IMLP’13 and IMMTB’13 on short notice — Asphalt Green had some entries to spare (so much my kind of decision). Looking forward to an awesome Mont Tremblant trip in less than 3 weeks, where we will try to one-up the car with 4 bikes!
 
@@ -33,40 +33,39 @@ Saturday was a day to:
 * relax
 
 <figure class="third">
-  <a href="{{ site.url }}/images/imlp2013/relax-1.jpg"><img src="{{ site.url }}/images/imlp2013/relax-1.jpg"/></a>
-  <a href="{{ site.url }}/images/imlp2013/relax-2.jpg"><img src="{{ site.url }}/images/imlp2013/relax-2.jpg"/></a>
-  <a href="{{ site.url }}/images/imlp2013/relax-3.jpg"><img src="{{ site.url }}/images/imlp2013/relax-3.jpg"/></a>
+  {% picture relax-1 %}
+  {% picture relax-2 %}
+  {% picture relax-3 %}
 </figure>
 
 * pack
 
 <figure class="third">
-  <a href="{{ site.url }}/images/imlp2013/pack-1.jpg"><img src="{{ site.url }}/images/imlp2013/pack-1.jpg"/></a>
-  <a href="{{ site.url }}/images/imlp2013/pack-2.jpg"><img src="{{ site.url }}/images/imlp2013/pack-2.jpg"/></a>
-  <a href="{{ site.url }}/images/imlp2013/pack-3.jpg"><img src="{{ site.url }}/images/imlp2013/pack-3.jpg"/></a>
-  <a href="{{ site.url }}/images/imlp2013/pack-4.jpg"><img src="{{ site.url }}/images/imlp2013/pack-4.jpg"/></a>
-  <a href="{{ site.url }}/images/imlp2013/pack-5.jpg"><img src="{{ site.url }}/images/imlp2013/pack-5.jpg"/></a>
-  <a href="{{ site.url }}/images/imlp2013/pack-6.jpg"><img src="{{ site.url }}/images/imlp2013/pack-6.jpg"/></a>
-  <a href="{{ site.url }}/images/imlp2013/pack-7.jpg"><img src="{{ site.url }}/images/imlp2013/pack-7.jpg"/></a>
-  <a href="{{ site.url }}/images/imlp2013/pack-8.jpg"><img src="{{ site.url }}/images/imlp2013/pack-8.jpg"/></a>
+  {%picture pack-1 %}
+  {%picture pack-2 %}
+  {%picture pack-3 %}
+  {%picture pack-4 %}
+  {%picture pack-5 %}
+  {%picture pack-6 %}
+  {%picture pack-7 %}
+  {%picture pack-8 %}
 </figure>
 
 * carbo-load
 
 <figure class="third">
-  <a href="{{ site.url }}/images/imlp2013/carbo-1.jpg"><img src="{{ site.url }}/images/imlp2013/carbo-1.jpg"/></a>
-  <a href="{{ site.url }}/images/imlp2013/carbo-2.jpg"><img src="{{ site.url }}/images/imlp2013/carbo-2.jpg"/></a>
-  <a href="{{ site.url }}/images/imlp2013/carbo-3.jpg"><img src="{{ site.url }}/images/imlp2013/carbo-3.jpg"/></a>
+  {%picture carbo-1 %}
+  {%picture carbo-2 %}
+  {%picture carbo-3 %}
 </figure>
-<br />
 
 As you can see I tried to go by the book this year — no Nutella and bacon for race day nutrition! That did not stop me to get some upfront.
 
 Then, just like that, I scored a room in a hostel with Rebecca and 3 of her friends, right at the start line. How cool is that!? We even got pre-race ice-cream at 10pm. I am checking this place out and definitely booking a room for next year with them!
 
 <figure class="half">
-  <a href="{{ site.url }}/images/imlp2013/carbo-4.jpg"><img src="{{ site.url }}/images/imlp2013/carbo-4.jpg"/></a>
-  <a href="{{ site.url }}/images/imlp2013/carbo-5.jpg"><img src="{{ site.url }}/images/imlp2013/carbo-5.jpg"/></a>
+  {%picture carbo-4 %}
+  {%picture carbo-5 %}
 </figure>
 
 ## The Race
@@ -92,7 +91,7 @@ This is where the fun happened. I would be tempted to say that whatever could go
 At mile 39, while climbing a hill, Victoria broke down on me (physical breakdown, not nervous — I am done with dealing with drama queens at this point :) I might have gone a little harder than I should have, and I will try to be more gentle with her in the future, but bottom line is derailleur snapped into pieces.
 
 <figure>
-  <a href="{{ site.url }}/images/imlp2013/luck.jpg"><img src="{{ site.url }}/images/imlp2013/luck.jpg"/></a>
+  {%picture luck %}
 </figure>
 
 Luckily we were taking it relatively slow to enjoy to full magnificence of the hill — 15mph or so, and we wobbled, but I was able to stop without crashing. At this point I was 2h02m into the ride for an average of a little below 20mph. The situation looked kind of hopeless. Athletes are very supportive of each other on the course and I got countless questions of the sorts of “are you OK?” and “do you need anything?”. On my response “a new derailleur”, the 99% answer was “Shit!”
@@ -100,10 +99,9 @@ Luckily we were taking it relatively slow to enjoy to full magnificence of the h
 They called tech support on me and after about 1h40m the help came. What happened next is bound to sound crazy to you, but keep in mind that at this point I pretty much thought I am done and the van will be taking me back. DNF. Luckily, after a quick look, the bike lady said that there is a glimpse of light… she could convert me to a single gear, so I can go on!! She asked me which gear I want, since I will not be able to switch at all :) Tough call, really tough call. The final climb was just ahead of me and then I had another full loop. After some fiddling, it seemed that we can’t choose any gear after all… the chain was either too tight or too lose and the only option was 39 x 15. Yes, this is what it looks like:
 
 <figure class="half">
-  <a href="{{ site.url }}/images/imlp2013/fixie-1.jpg"><img src="{{ site.url }}/images/imlp2013/fixie-1.jpg"/></a>
-  <a href="{{ site.url }}/images/imlp2013/fixie-2.jpg"><img src="{{ site.url }}/images/imlp2013/fixie-2.jpg"/></a>
+  {%picture fixie-1 %}
+  {%picture fixie-2 %}
 </figure>
-<br />
 
 I was scared. Climbing the bears at IMLP is tough enough in the easiest gear… and this gear was not it. This was going to require some strength! In any case I had been resting for 1h40m, eating bars and drinking gatorade, so with new hope and full of energy, I killed the next 17 miles and the hills on them. There were a couple of Pros who fell behind and ware just slacking leisurely at 20mph on the flats but were going slow on the hills. I had to pass them on the hills multiple times because of my gear ratio, and when they saw my back wheel setup, I heard more of the same response (“Shit!”). For fairness, they added “make the best of it, and good luck!”. I was starting to see the light in the end of the tunnel.
 
@@ -128,9 +126,8 @@ The run course starts with a number of downhills, so I was jogging along. It fel
 One of the highlights was Rebecca and Carolyn gave me at mile 12. I suppose it is only prudent to disqualify me for external assistance, since that beer fueled the next couple of miles pretty well.
 
 <figure class="half">
-  <a href="{{ site.url }}/images/imlp2013/run.jpg"><img src="{{ site.url }}/images/imlp2013/run.jpg"/></a>
+  {%picture run %}
 </figure>
-<br />
 
 The watch stopped at about 4h48m for the marathon, which I am satisfied with.
 
@@ -143,11 +140,10 @@ I felt remarkably better after this one compared to the previous three. Official
 After a quick gear collect, shower, and a quick Normatec action, we went back to the finish line to watch the final people cross the line. What a show… I regret for missing it previous years!
 
 <figure class="half">
-  <a href="{{ site.url }}/images/imlp2013/post-1.jpg"><img src="{{ site.url }}/images/imlp2013/post-1.jpg"/></a>
-  <a href="{{ site.url }}/images/imlp2013/post-2.jpg"><img src="{{ site.url }}/images/imlp2013/post-2.jpg"/></a>
-  <a href="{{ site.url }}/images/imlp2013/post-3.jpg"><img src="{{ site.url }}/images/imlp2013/post-3.jpg"/></a>
-  <a href="{{ site.url }}/images/imlp2013/post-4.jpg"><img src="{{ site.url }}/images/imlp2013/post-4.jpg"/></a>
+  {%picture post-1 %}
+  {%picture post-2 %}
+  {%picture post-3 %}
+  {%picture post-4 %}
 </figure>
-<br />
 
 Monday was mostly book keeping. They had towed my car, despite being perfectly legally parked, because it was on a street where the bike course passes. I got some more Nutella crepes in, a bacon-egg-and-cheese sandwich and soon will head home. All in all a perfect weekend of finishing against the odds, pulling off a performance that I myself was not sure I could, and making some new friends!
