@@ -1,0 +1,4 @@
+s3_website.yml filter=encrypt diff=encrypt
+
+[merge]
+    renormalize=true
