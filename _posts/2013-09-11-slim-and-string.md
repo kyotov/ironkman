@@ -8,8 +8,9 @@ image:
   feature: 
   credit: 
   creditlink: 
-comments: 
+comments: true
 share: 
+images-tag: slim_and_strong
 ---
 
 This is a copy of the [original article](http://slimandstrongin2009.blogspot.com/2013/09/meet-kamen-not-just-inspirational-but.html).
@@ -21,10 +22,10 @@ Over the past 5 years - that's when I created Slim & Strong - I've met thousands
 I interviewed Kamen about his crazy journey into fitness after he dropped me back down: 
 
 <figure>
-  <a href="{{ site.url }}/images/slim_and_strong/kamen.jpg"><img src="{{ site.url }}/images/slim_and_strong/kamen.jpg"/></a>
+  {% picture kamen %}
 </figure>
 
-_**Ariane:** I remember the first day you walked into Slim & Strong in 2009, telling me that the night before the weigh-in you had steak, a whole watermelon and a few other things to make for a heavy weigh-in. You played your strategy well from the get-go and you promptly lost 20 pounds in less than 2 weeks (check out Kamen's stats here). Tell us what motivated you to sign up for the program?_
+_**Ariane:** I remember the first day you walked into Slim & Strong in 2009, telling me that the night before the weigh-in you had steak, a whole watermelon and a few other things to make for a heavy weigh-in. You played your strategy well from the get-go and you promptly lost 20 pounds in less than 2 weeks (check out Kamen's stats [here](http://slimandstrongin2009.blogspot.com/2009/08/and-winner-of-2-week-intensive-is.html)). Tell us what motivated you to sign up for the program?_
 
 **Kamen:** All my life I had relied on genetics of above-average metabolism. As a teenager I could build muscle by eating donuts. In my twenties I could maintain my shape on a crappy diet, but not improve. Once I crossed 30 it started going downhill. I maxed out at 232lb when my daughter was born -- you know how husbands put on "sympathy" weight during pregnancy which they never lose?
 
@@ -37,7 +38,7 @@ _**Ariane:** About 3 years ago you and I and a few other boot campers signed up 
 **Kamen:** I started racing in 2009 indeed. In the beginning it was mostly running, but then I started doing stair climbing races, swimming races, and triathlons. To date I have done 5 Full IronMan races, 10 Half IronMan races, about 15 other triathlons, duathlons and aquathlons, a 50 mile trail run, 3 60K runs, 4 marathons, 15+ half marathons, and many others... I tend to place highest in stair climbing races, which remains a mystery to me, because I am still heavy for that at 190 lbs.
 
 <figure>
-  <a href="{{ site.url }}/images/slim_and_strong/stairs.jpg"><img src="{{ site.url }}/images/slim_and_strong/stairs.jpg"/></a>
+  {% picture stairs %}
   <figcaption>This is the first stair climb we did for the American Lung Association. We won 1st place for fastest team and 1st place for best fundraisers. Whohooo!</figcaption>
 </figure>
 
@@ -48,8 +49,7 @@ _**Ariane:** What motivates you to work out like you do and compete "the Kamen w
 Another big reason is the inspiration you give others. A lot of friends have completed races because one way or another I have pushed them through it. It is great to see how you can make a difference is other people's lives and make them better. And a very special one of these people is my 10 year old daughter Julianne. We have done several races and triathlons together and she is now competing as part of the Prospect Park Youth Running Club. I can't afford not to try to be the best I could be, even if it was just for her.
 
 <figure>
-  <a href="{{ site.url }}/images/slim_and_strong/kamen_julie.jpg"><img src="{{ site.url }}/images/slim_and_strong/kamen_julie.jpg"/>
-</a>
+  {% picture kamen_julie %}
 </figure>
 
 _**Ariane:** You two got a nice [shout-out](/press/2013/07/19/daddys-little-fitness-girl/) at [Mizzfit.com](http://mizzfit.com) about your workout relationship [link](here). What do you consider to be the most effective way to get your body into shape?_

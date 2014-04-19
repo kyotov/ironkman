@@ -1,13 +1,15 @@
 {
-  "name": "minimal-mistakes-theme",
-  "author": "Michael Rose <michael@mademistakes.com>",
-  "homepage": "http://mmistakes.github.io/minima-mistakes/",
+  "name": "ironKman",
+  "author": "Kamen Yotov <kamen@yotov.org>",
+  "description": "nothing",
+  "readme": "nothing",
+  "homepage": "http://kyotov.github.io/ironkman/",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mmistakes/minimal-mistakes.git"
+    "url": "git://github.com/kyotov/ironkman.git"
   },
   "bugs": {
-    "url": "https://github.com/mmistakes/minimal-mistakes/issues"
+    "url": "https://github.com/kyotov/ironkman/issues"
   },
   "engines": {
     "node": ">= 0.10.0"
@@ -20,6 +22,10 @@
     "grunt-contrib-watch": "~0.5.2",
     "grunt-recess": "~0.3.5",
     "grunt-contrib-imagemin": "~0.2.0",
-    "grunt-svgmin": "~0.2.0"
+    "grunt-svgmin": "~0.2.0",
+    "grunt-copy": "~0.1.0",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-jekyll": "~0.4.2",
+    "grunt-contrib-connect": "~0.7.1"
   }
 }

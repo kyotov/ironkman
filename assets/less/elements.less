@@ -7,21 +7,27 @@ hr {
 	border-top: 1px solid #ccc;
 	border-bottom: 1px solid #fff; 
 }
+
 /* Figures and images ==================================== */
+
 figure {
 	margin-bottom: @indent-var;
 }
+
 article img {
 	max-width: 100%;
+  margin: @margin;
 	height: auto;
-	border-width: 0; 
+	border-width: 0;
 	vertical-align: middle; 
   horizontal-align: middle;
 	-ms-interpolation-mode: bicubic; 
 }
+
 svg:not(:root) {
 		overflow: hidden; 
 }
+
 .half {
 	.container();
 	.clearfix();
@@ -33,7 +39,9 @@ svg:not(:root) {
 			.grid(12,12);
 		}
 	}
+  margin-bottom: @indent-var;
 }
+
 .third {
 	.container();
 	.clearfix();
@@ -45,7 +53,9 @@ svg:not(:root) {
 			.grid(12,12);
 		}
 	}
+  margin-bottom: @indent-var;
 }
+
 /* Buttons ============================================== */
 .btn {
   display: inline-block;

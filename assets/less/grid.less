@@ -2,17 +2,16 @@
 // Common Values would be 12, 16 or 24
 @width: 100%;
 @def_grid: 12;
-@margin: 0;
+@margin: 2px;
 
 .container(){
-  margin:0 auto;
-  width:@width;
+  margin: 0 auto;
+  width: @width;
 }
                                       
 // Works out the width of elements based
 // on total number of columns and width
 // number of columns being displayed.
-// Removes 20px for margins
 .grid(@grid:@def_grid,@cols:'',@float:left,@display:inline){
   display:@display;
   float:@float;
@@ -23,14 +22,17 @@
 .prefix(@grid:@def_grid,@cols:''){
   margin-left:(100%/@grid * @cols);
 }
+
 // Allows for padding after element
 .suffix(@grid:@def_grid,@cols:''){  
   margin-right:(100%/@grid * @cols);    
 }
+
 // Removes left margin
 .first(){
   margin-left:0;
 }
+
 // Removes right margin
 .last(){
   margin-right:0;

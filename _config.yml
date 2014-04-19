@@ -7,24 +7,24 @@ disqus_shortname: ironkman
 # Owner/author information
 owner:
   name:           Kamen Yotov
-  avatar:         bio-photo.jpg
+  avatar:         bio-photo.png
   bio:            "I make some of the best mistakes. And so far I have lived to tell about them!"
   email:          kamen@yotov.org
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter:        
+  #twitter:        
   facebook:       kyotov
-  github:         kyotov
-  stackoverflow: 
+  #github:         kyotov
+  #stackoverflow: 
   #linkedin:       kyotov
-  instagram:      
-  lastfm:         
-  tumblr: 
-  pinterest: 
-  foursquare: 
-  steam: 
-  dribbble: 
+  #instagram:      
+  #lastfm:         
+  #tumblr: 
+  #pinterest: 
+  #foursquare: 
+  #steam: 
+  #dribbble: 
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:
+  #google_plus:
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   UA-11853474-7
@@ -63,4 +63,27 @@ kramdown:
     coderay_css: class
 
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+
+exclude: [
+  "lib",
+  "config.rb",
+  "Capfile",
+  "config",
+  "log",
+  "Rakefile",
+  "Rakefile.rb",
+  "tmp",
+  "less",
+  "*.sublime-project",
+  "*.sublime-workspace",
+  "test",
+  "spec",
+  "Gruntfile.js",
+  "package.json",
+  "node_modules",
+  "images-src",
+  "images-gen",
+  "Gemfile",
+  "Gemfile.lock",
+  "LICENSE",
+]
