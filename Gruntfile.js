@@ -1,6 +1,8 @@
 'use strict';
 module.exports = function(grunt) {
 
+  require('time-grunt')(grunt);
+
   grunt.initConfig({
     jshint: {
       options: {
@@ -21,7 +23,7 @@ module.exports = function(grunt) {
         },
         files: {
           'assets/css/main.min.css': [
-            'assets/less/main.less'
+            '_assets/less/main.less'
           ]
         }
       }
@@ -30,8 +32,8 @@ module.exports = function(grunt) {
       dist: {
         files: {
           'assets/js/scripts.min.js': [
-            'assets/js/plugins/*.js',
-            'assets/js/_*.js'
+            '_assets/js/plugins/*.js',
+            '_assets/js/*.js'
           ]
         }
       }
@@ -83,125 +85,140 @@ module.exports = function(grunt) {
     },
     clean: {
       dist: [
-        'assets/css/main.min.css',
-        'assets/js/scripts.min.js'
+        'assets',
+        'images',
+        '_site',
+      ],
+      tmp: [
+        'images/tmp',
       ]
     },
     responsive_images: {
-	    options: {
-	    	engine: 'gm',
-	    },
-		icons: {
-			options: {
-		    	sizes: [
-		    		{
-	    				name: '200x200',
-	    				width: '200',
-	    				height: '200',
-	    				aspectRatio: 'true',
-	    			},
-		    		{
-	    				name: '144x144',
-	    				width: '144',
-	    				height: '144',
-	    				aspectRatio: 'true',
-	    			},
-		    		{
-	    				name: '114x114',
-	    				width: '114',
-	    				height: '114',
-	    				aspectRatio: 'true',
-	    			},
-		    		{
-	    				name: '72x72',
-	    				width: '72',
-	    				height: '72',
-	    				aspectRatio: 'true',
-	    			},
-		    		{
-	    				name: '57x57',
-	    				width: '57',
-	    				height: '57',
-	    				aspectRatio: 'true',
-	    			},
-		    		{
-	    				name: '32x32',
-	    				width: '32',
-	    				height: '32',
-	    				aspectRatio: 'true',
-	    			}
-		    	]
-			},
-			files: [{
-				expand: true,
-				cwd: 'images-src/',
-				src: ['kamen.png'],
-				dest: 'images-gen/',
-			}]
-		},
-		posts: {
-			options: {
-				sizes: [
-					{
-						name: 'small',
-						width: '480',
-						height: '480',
-						aspectRatio: 'true',
-					},
-					{
-						name: 'large',
-						width: '1024',
-						height: '1024',
-						aspectRatio: 'true',
-					},
-				]
-			},
-			files: [{
-				expand: true,
-				cwd: 'images-src/posts/',
-				src: ['**/*.jpg'],
-				dest: 'images/',
-			}]
-		}
-  	},
-  	copy: {
-  		options: {
-
-  		},
-  		icons: {
-	  		files: [
-	  			{
-	  				'images/default-thumb.png': ['images-gen/kamen-200x200.png'],
-	  				'images/bio-photo.png': ['images-src/kamen.png'],
-	  				'favicon.png': ['images-gen/kamen-32x32.png'],
-	  				'favicon.ico': ['images-gen/kamen-32x32.png'],
-	  			},
-	  			{
-	  				expand: true,
-	  				cwd: 'images-gen',
-	  				src: ['kamen-*.png'],
-	  				dest: 'images/',
-	  				rename: function(dest, src) {
-	  					src = src.replace('kamen', 'apple-touch-icon');
-	  					src = src.replace('.png', '-precomposed.png');
-	  					return dest + src;
-	  				}
-	  			}
-	  		]
-	  	}
-  	},
-  	connect: {
-  		server: {
-  			options: {
-  				port: 4000,
-  				base: './_site',
-  				//keepalive: true,
-  			}
-  		}
-  	},
+      options: {
+        engine: 'gm',
+      },
+      icons: {
+        options: {
+            sizes: [
+              {
+                name: '200x200',
+                width: '200',
+                height: '200',
+                aspectRatio: 'true',
+              },
+              {
+                name: '144x144',
+                width: '144',
+                height: '144',
+                aspectRatio: 'true',
+              },
+              {
+                name: '114x114',
+                width: '114',
+                height: '114',
+                aspectRatio: 'true',
+              },
+              {
+                name: '72x72',
+                width: '72',
+                height: '72',
+                aspectRatio: 'true',
+              },
+              {
+                name: '57x57',
+                width: '57',
+                height: '57',
+                aspectRatio: 'true',
+              },
+              {
+                name: '32x32',
+                width: '32',
+                height: '32',
+                aspectRatio: 'true',
+              }
+            ]
+        },
+        files: [{
+          expand: true,
+          cwd: '_images/',
+          src: ['kamen.png'],
+          dest: 'images/tmp/',
+        }]
+      },
+      posts: {
+        options: {
+          sizes: [
+            {
+              name: 'small',
+              width: '480',
+              height: '480',
+              aspectRatio: 'true',
+            },
+            {
+              name: 'large',
+              width: '1024',
+              height: '1024',
+              aspectRatio: 'true',
+            },
+          ]
+        },
+        files: [{
+          expand: true,
+          cwd: '_images/posts/',
+          src: ['**/*.jpg'],
+          dest: 'images/',
+        }]
+      }
+    },
+    copy: {
+      assets: {
+        files: [
+          {
+            expand: true,
+            cwd: '_assets/js/vendor/',
+            src: ['*.js'],
+            dest: 'assets/js/vendor/'
+          },
+          {
+            expand: true,
+            cwd: '_assets/fonts/',
+            src: ['*'],
+            dest: 'assets/fonts/'
+          },
+        ]
+      },
+      icons: {
+        files: [
+          {
+            'images/default-thumb.png': ['images/tmp/kamen-200x200.png'],
+            'images/bio-photo.png': ['_images/kamen.png'],
+            'favicon.png': ['images/tmp/kamen-32x32.png'],
+            'favicon.ico': ['images/tmp/kamen-32x32.png'],
+          },
+          {
+            expand: true,
+            cwd: 'images/tmp/',
+            src: ['kamen-*.png'],
+            dest: 'images/',
+            rename: function(dest, src) {
+              src = src.replace('kamen', 'apple-touch-icon');
+              src = src.replace('.png', '-precomposed.png');
+              return dest + src;
+            }
+          }
+        ]
+      }
+    },
+    connect: {
+      server: {
+        options: {
+          port: 4000,
+          base: './_site',
+        }
+      }
+    },
     jekyll: {
       generate: {
-
       }
     }
   });
@@ -219,16 +236,31 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-responsive-images');
   grunt.loadNpmTasks('grunt-jekyll');
 
-  // Register tasks
-  grunt.registerTask('default', [
+  grunt.registerTask('build', [
     'clean',
     'recess',
     'uglify',
+    'responsive_images',
+    'copy',
     'imagemin',
-    'svgmin'
+    'svgmin',
+    'clean:tmp',
+    'jekyll',
   ]);
-  grunt.registerTask('dev', [
-    'watch'
+
+  grunt.registerTask('quick_build', [
+    'recess',
+    'uglify',
+    'copy',
+    'imagemin',
+    'svgmin',
+    'clean:tmp',
+    'jekyll',
+  ]);
+
+  grunt.registerTask('serve', [
+    'connect',
+    'watch',
   ]);
 
 };
