@@ -86,4 +86,5 @@ exclude: [
   "Gemfile",
   "Gemfile.lock",
   "LICENSE",
+  "s3_website.yml",
 ]

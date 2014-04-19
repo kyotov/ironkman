@@ -72,6 +72,13 @@ module.exports = function(grunt) {
           '<%= jshint.all %>'
         ],
         tasks: ['jshint','uglify']
+      },
+      jekyll: {
+        files: [
+          '_posts/*.md',
+          '*.md',
+        ],
+        tasks: ['jekyll']
       }
     },
     clean: {
@@ -183,15 +190,20 @@ module.exports = function(grunt) {
 	  		]
 	  	}
   	},
-	connect: {
-		server: {
-			options: {
-				port: 4000,
-				base: './_site',
-				//keepalive: true,
-			}
-		}
-	}
+  	connect: {
+  		server: {
+  			options: {
+  				port: 4000,
+  				base: './_site',
+  				//keepalive: true,
+  			}
+  		}
+  	},
+    jekyll: {
+      generate: {
+
+      }
+    }
   });
 
   // Load tasks

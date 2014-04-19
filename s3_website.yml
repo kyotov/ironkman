@@ -1,27 +1,55 @@
-U2FsdGVkX1+pz/mj0WWGWxfFx8OZO6EgTHIkOC5uKg8XInwekoTALJ7jwnNP0pc9
-U6t/NI92IzmlV3Gm6VN/DCInqP9ZQrBVyxZbx0lUDZF0zZx9ArytVERRADTRXwFJ
-wt757QctuFv3crQkDywj2wWUvNVbJp2o0TeAyTjypjSWHMaoax/tb1Y4bSaorJDE
-gN863CpPyJpbfFqSH6PKt3j9NOIFA56SwHJlxGdFbir7986FmB8XPJ3sdnDvGM6F
-NCpyLDKDzu4G92XlpOLeGFzAYlfVs5O1sCLXKElkPFi8owHTUFiiXC0f47L8WgXS
-qGsnm+nAI3bj38B2ryLeU6P+BsQSC44gz7mgOpkrGL/OV+s8BLtoADb+7x3Cpoa1
-xAV9LQh7qIaKZjEn4GpMjAX/kpwG6E0uBAgenezVGHNTsA2yoeuVd1jwMwtiMDLY
-mLduq9GDUhFQfzMMTWuRo8BW2QiLOyY1TFE7DelG+K2h+wdgqXGUiibQROsBJQ1Z
-r2GGl3Beg9ApZwQB5HswTP6XHmnz5YI3CCxDXJZQGXZ0wjwwYtesnsL7QTodgo+n
-8scD7icuuwRh/UPP4cJz120jELWGjZJd646oJGsKX51zUfDaUVeKlAOXki8M1A7k
-Lr63nxye+DW2Iji/VUrC+dO4Gwn6QnfiZbXVsb+HZjakZGMJeuqtnRDrkMByYdSn
-TQxcj/LV4qDFPl1DVBk1sECI4NyLsqAU4oPZsXZRl9uiXHXyFqXJypL/D/sISaSs
-DtAQ+MpI12wVME0PAokSdHoK0yYZbodBeTKSkJa+NYvy3IMzWUnXNyFGLziiuRn2
-KMBE1qXkOLFGUluzcl3zBghtTtxt0WCYOT459BX/Gqmpag7cQZ9orjsvHOQy2Lpf
-nTEaqkFam77KY3CJHrRrsPhNSo552XFKvJ/YcIMi80n9W940Eu9la2P5dFbgkLVz
-EXknIOoU32nShq0Qn7vsQdunrP2f1CesgI6aM495ZKOuOH4WkKnvJsVmPB4gsU2M
-DgUf0rHg4P5C7GkZs6GUtq8l/qAo/vh51SYSz9GPeSLNo31pfpnBviHAMUSNB7hE
-35N2UCxINTzoqtw64ZxH+KGC/Y7Nzm5EQgnV0/tag2dE81pPvVZbTbhVseEtOkNY
-A9AvNtCZk5YEFLOax4ACxxUClENefKLznoeiJQmwLHT4ezAV417Q0lHpWMjk8Bgn
-SviVyEII77344WIWCgXMnUxgDKSCMeVefcHqRj0lKXgTgYUwfvfFcWax538Q9oW3
-/2SYiCxMXqLLnLSPXnHi9NnAMgUf3RkQpSa87w9DBjnm2POFYGu7fKM06zA8dq3g
-ST0znbwOiVwfCoVt0k+KZWpIopfGz6SXAHKw3Vjxp03SEjEa1suxgKmBGdvgNf2z
-H/7wLE4oMBBJ/45QNZ8zKdhlGBfY/VrKYClL1s2cDyo2a7ayUPBWMSucmj2z95RW
-4f1gTkkj4ETxLGDp/qCFTWf3ZBzy8xMyx4tGyixqYxcoDm/L9Fh+VRqcW5JnQS6h
-Aq68+QFIgZgKlpF8GAJQ20ErmJRwTai4JPvnhnnKPXymLhLSqOmnlzlQTJSgrqcD
-jmKEuXZOBTqFGjiTWfJnQUY0aKl25t+cNb7Hd/w7nz1V3tPsg65MA3eMGeuHctlp
-IrmQU2k4kzyXlhPfpPgbnB7LIewchG7NEQdNOrknjM0=
+s3_id: AKIAIU2V6OKFOWWCT7MA
+s3_secret: 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
+s3_bucket: ironkman
+cloudfront_distribution_id: E3QGQSLQI8ZU80
+
+cloudfront_distribution_config:
+#	default_cache_behavior:
+#		min_TTL: <%= 60 * 60 * 24 %>
+  aliases:
+    quantity: 1
+    items:
+      CNAME: ironkman.yotov.org
+
+cloudfront_invalidate_root: true
+
+# Below are examples of all the available configurations.
+# See README for more detailed info on each of them.
+
+# max_age:
+#   "assets/*": 6000
+#   "*": 300
+
+# gzip:
+#   - .html
+#   - .css
+#   - .md
+# gzip_zopfli: true
+
+# See http://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region for valid endpoints
+# s3_endpoint: ap-northeast-1
+
+# ignore_on_server: that_folder_of_stuff_i_dont_keep_locally
+
+# exclude_from_upload:
+#   - those_folders_of_stuff
+#   - i_wouldnt_want_to_upload
+
+# s3_reduced_redundancy: true
+
+# concurrency_level: 5
+
+# redirects:
+#   index.php: /
+#   about.php: about.html
+#   music-files/promo.mp4: http://www.youtube.com/watch?v=dQw4w9WgXcQ
+
+# routing_rules:
+#   - condition:
+#       key_prefix_equals: blog/some_path
+#     redirect:
+#       host_name: blog.example.com
+#       replace_key_prefix_with: some_new_path/
+#       http_redirect_code: 301
+
+# extensionless_mime_type: text/html

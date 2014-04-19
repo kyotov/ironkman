@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Slim &amp; String"
+title: "Slim &amp; Strong"
 modified: 2013-09-11 20:00:00 -0400
 category: press
 tags: [bootcamp,ariane,brooklyn,bridge,myrna,exercise]
@@ -13,7 +13,7 @@ share:
 images-tag: slim_and_strong
 ---
 
-This is a copy of the [original article](http://slimandstrongin2009.blogspot.com/2013/09/meet-kamen-not-just-inspirational-but.html).
+This is a copy of the [original Slim & Strong blog post](http://slimandstrongin2009.blogspot.com/2013/09/meet-kamen-not-just-inspirational-but.html).
 
 ## Meet Kamen: Not just inspirational but without limits! 
 
