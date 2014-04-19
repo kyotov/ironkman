@@ -10,6 +10,7 @@ image:
   creditlink: 
 comments: true
 share: 
+images-tag: pptc
 ---
 
 Originally posted on September 24th, 2013 by Michael Rieman at [the PPTC blog](http://pptc.org/the-usual-prospects-kamen-yotov/)
