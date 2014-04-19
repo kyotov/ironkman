@@ -2,7 +2,7 @@
 layout: post
 title: "IronMan Mont-Tremblant 2013 (#5)"
 modified: 2013-08-18 23:00:00 -0400
-category: [races]
+category: races
 tags: [triathlon,scratching,weird,epic]
 image:
   feature: 
