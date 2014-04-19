@@ -88,6 +88,7 @@ module.exports = function(grunt) {
         'assets',
         'images',
         '_site',
+        'favicon.*',
       ],
       tmp: [
         'images/tmp',
@@ -251,6 +252,7 @@ module.exports = function(grunt) {
   grunt.registerTask('quick_build', [
     'recess',
     'uglify',
+    'responsive_images:icons',
     'copy',
     'imagemin',
     'svgmin',
