@@ -1,55 +1,27 @@
-s3_id: AKIAIPICQY5UZINFEVHA
-s3_secret: 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
-s3_bucket: ironkman
-cloudfront_distribution_id: E3QGQSLQI8ZU80
-
-cloudfront_distribution_config:
-#	default_cache_behavior:
-#		min_TTL: <%= 60 * 60 * 24 %>
-  aliases:
-    quantity: 1
-    items:
-      CNAME: ironkman.yotov.org
-
-cloudfront_invalidate_root: true
-
-# Below are examples of all the available configurations.
-# See README for more detailed info on each of them.
-
-# max_age:
-#   "assets/*": 6000
-#   "*": 300
-
-# gzip:
-#   - .html
-#   - .css
-#   - .md
-# gzip_zopfli: true
-
-# See http://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region for valid endpoints
-# s3_endpoint: ap-northeast-1
-
-# ignore_on_server: that_folder_of_stuff_i_dont_keep_locally
-
-# exclude_from_upload:
-#   - those_folders_of_stuff
-#   - i_wouldnt_want_to_upload
-
-# s3_reduced_redundancy: true
-
-# concurrency_level: 5
-
-# redirects:
-#   index.php: /
-#   about.php: about.html
-#   music-files/promo.mp4: http://www.youtube.com/watch?v=dQw4w9WgXcQ
-
-# routing_rules:
-#   - condition:
-#       key_prefix_equals: blog/some_path
-#     redirect:
-#       host_name: blog.example.com
-#       replace_key_prefix_with: some_new_path/
-#       http_redirect_code: 301
-
-# extensionless_mime_type: text/html
+U2FsdGVkX1+pz/mj0WWGW6wpoTMbfvro4vxuFebNbcHJMbCV3gQ1T0ZPDGI6gia5
+JuuuenbEWeBbCm46EuilBQUTQVRhw5LXUH5yQ2APuHJC1aQEwWxMyr5UByVNqtvz
+wt757QctuFv3crQkDywj2wWUvNVbJp2o0TeAyTjypjSWHMaoax/tb1Y4bSaorJDE
+gN863CpPyJpbfFqSH6PKt3j9NOIFA56SwHJlxGdFbir7986FmB8XPJ3sdnDvGM6F
+NCpyLDKDzu4G92XlpOLeGFzAYlfVs5O1sCLXKElkPFi8owHTUFiiXC0f47L8WgXS
+qGsnm+nAI3bj38B2ryLeU6P+BsQSC44gz7mgOpkrGL/OV+s8BLtoADb+7x3Cpoa1
+xAV9LQh7qIaKZjEn4GpMjAX/kpwG6E0uBAgenezVGHOPM8HLk/UmayhkebgMmwHQ
+wufWS5Tze1ZiBqUH2y3v/SJnckiktkkBjIATcDKGwyCbJvomQBIIw+cuxLxHSyp9
+SwNJARJw7PpOslXrQRfHnup+z2XRNhOvJUOShJotwoj2B219IW+MHeYpO+dPXmJi
+J5FFXgfxRL5cU5bYvjixtHe7YR0cT1bFIkEtfwz+EKXmw2GV/1+uETHQ+0shqsnu
+G3xZeEBx+RHXJOvt0ZyYZLMuHK3nfAB3e8HaFivxOnZXdOR4YmIcWOvmbjS92dki
+tUFaRezZ7bl8Nt0dIzn1ah4o4UZK+Ji/lFG7I7lENNHn8+DH01yqjmWdmE2VNvhK
+ABf+p7Qx5yh/8ZyIhWXTRZc8Ul9bsWz341+wA5QvOjDjDdvs4vWoraEoU6g0bm0f
+0YINCPVMc2AHOygUTbdNzev9XvjMnw6e4hyQk4rxanFMSEpsZBb8BipiL24PcPT8
+Lsaq7pruZ1CZPM/kIsbO1Fogl+r8cJgf0ni7KyMj56j5JUquvlhr2CNEy1lIpuXX
+Ixp65OIkPY4gcB1u/+Jrdvop6XgTaj25BvlMwN1IepZq6Nvi7A1uRXTxvfcG5hxE
+V30S3fNW1t8ZSDFtSkcXwOWuUhpQ4V7ujLvde5VdROTgK19bW2yu361U/TsGWGyP
+eP/qUmYoDqubalJwJN+wcNDgCLk1Tp/p9rBQBc2jqmbGGHQzbGWJ0IeMCreeW2Jp
+8Xs8/lhu46XFYC9kVe3GO8mbxRdn1Taz4hWuO46rfLroCT3ezSazmIC+CPsNYfzU
+aBWtGWAhJXUKfPtAyN8GnkKAIuNZP4atymBB/WVu4zvDCF1bECjhCXlZp/8Q4kD+
+E13AYVLlW/J0ldRQG2GYbv33n4SCyWo4SIUscH2uai6X34eg9vu52+37GTBnnXVJ
+CpgFz21++mTkMrEBi7/kJuWCKX/b+ZgxnOgaa4ytst0z3AYyMEOip1R+t6aIXWUQ
+0zzXoZhakfc5Sme+u7/p4OBeEVIf/GSuhHstccNq1CHtka6aYECVcDlVQJ7i3G5y
+xrSMaW7zfVyDzQc3J7VlJfscWYWWuRtiNGA7EEeDHnqKb6i8UdaWnQn3xwwTzfCp
+hu9lalftkMuX5JSDBUFI0Kl9tctufaQUTTYQvf8N9bTUc0ytuBKvfsLmczOSfw4K
+B0u1lE0cMk1ftemX08GEiHGAsAQypxvAuFAjvT2zXsrWYA86WEcTTenEStL+tkTK
+RjPk9wzPX8gC0fqkmsDQVpM6Xn/rfPrXebntW0qeWS0=
